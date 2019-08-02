@@ -1,0 +1,87 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--basic app-->
+    <string name="app_name">SALUS</string>
+    <string name="app_Name">S A L U S</string>
+    <string name="email_hint">Email address</string>
+    <string name="pw_hint">Password</string>
+    <string name="si_btn">Sign in</string>
+    <string name="su_btn">Sign up</string>
+    <string name="fpw_btn">Forgot password?</string>
+    <string name="reset_title">Reset password</string>
+
+    <!--signup screen-->
+    <string name="user_fname">First name</string>
+    <string name="user_lname">Last name</string>
+    <string name="pw_caution1">* Create a password include number, upercase, lowercase and special characters.</string>
+    <string name="pw_caution2">* Use a minimum password length of 10.</string>
+    <string name="pw_caution3">* Check your password again.</string>
+    <string name="confirm_hint">Confrim password</string>
+    <string name="su_caution">Now you can sign up!</string>
+    <string name="fpw_caution">* Wrtie your email address.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!--main sreen-->
+    <string name="main_title">Real time data</string>
+    <string name="hr">HR</string>
+    <string name="air_quality">Air Quality</string>
+    <string name="cpw_caution1">* Write current password.</string>
+    <string name="currentpw_hint">current password</string>
+    <string name="cpw_caution2">* Write new password.</string>
+    <string name="newpw_hint">new password</string>
+    <string name="cpw_caution3">* Write password again.</string>
+    <string name="confirmpw_hint">confirm</string>
+    <string name="complete_btn">complete</string>
+    <string name="graph">graph</string>
+    <string name="map">map</string>
+    <string name="sensor_list">Sensor Management</string>
+
+    <!--navigation-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SALUS</string>
+    <string name="nav_header_subtitle">menu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--menu item-->
+    <string name="my_page">My page</string>
+    <string name="history">History</string>
+    <string name="sign_out">Sign out</string>
+    <string name="user_info">User info</string>
+    <string name="change_pw">Change password</string>
+    <string name="add_contact">Add contact</string>
+    <string name="history_hr">Heart rate</string>
+    <string name="history_air">Air quality</string>
+    <string name="delete_account">Delete account</string>
+
+    <!--air quality-->
+    <string name="CO">CO:</string>
+    <string name="NO2">NO2:</string>
+    <string name="O3">O3:</string>
+    <string name="SO2">SO2:</string>
+    <string name="pm2_5">PM2.5:</string>
+    <string name="pm10">PM10:</string>
+
+    <!--Bluetoothchat-->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+</resources>

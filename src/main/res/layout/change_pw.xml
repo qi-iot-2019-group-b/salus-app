@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/cpw_title"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_pw"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#1674B3"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/cpw_caution1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cpw_caution1"
+        android:textSize="15sp"
+        android:layout_marginStart="28dp"/>
+
+    <com.example.salus.ClearEditText
+        android:id="@+id/current_pw"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded_border"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:hint="@string/currentpw_hint"
+        android:textColorHint="#626567"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:maxLength="64"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/cpw_caution2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cpw_caution2"
+        android:textSize="15sp"
+        android:layout_marginStart="28dp"/>
+
+    <com.example.salus.ClearEditText
+        android:id="@+id/new_pw"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded_border"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:hint="@string/newpw_hint"
+        android:textColorHint="#626567"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:maxLength="64"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/cpw_caution3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cpw_caution3"
+        android:textSize="15sp"
+        android:layout_marginStart="28dp"/>
+
+    <com.example.salus.ClearEditText
+        android:id="@+id/confirm_pw"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded_border"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:hint="@string/confirmpw_hint"
+        android:textColorHint="#626567"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:maxLength="64"
+        android:focusable="true"/>
+
+    <Button
+        android:id="@+id/complete"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/complete_btn"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

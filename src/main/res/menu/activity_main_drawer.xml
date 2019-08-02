@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/my_page">
+            <menu>
+                <item
+                    android:id="@+id/user_info"
+                    android:title="@string/user_info"/>
+                <item
+                    android:id="@+id/change_pw"
+                    android:title="@string/change_pw"/>
+                <item
+                    android:id="@+id/add_contact"
+                    android:title="@string/add_contact"/>
+                <item
+                    android:id="@+id/delete_account"
+                    android:title="@string/delete_account"/>
+            </menu>
+        </item>
+    </group>
+    <!--add icon: android:icon="@drawable/-->
+    <group android:checkableBehavior="single">
+        <item android:title="@string/history">
+            <menu>
+                <item
+                    android:id="@+id/history_hr"
+                    android:title="@string/history_hr"/>
+                <item
+                    android:id="@+id/history_air"
+                    android:title="@string/history_air"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/sensor_list"
+            android:title="@string/sensor_list"/>
+        <item
+            android:id="@+id/sign_out"
+            android:title="@string/sign_out" />
+    </group>
+</menu>
